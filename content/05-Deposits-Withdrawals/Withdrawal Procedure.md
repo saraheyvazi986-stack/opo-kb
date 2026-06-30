@@ -48,7 +48,7 @@ The Client Agreement clause 15.3 lists the conditions a withdrawal must satisfy:
 > The Client has indicated the amount of money he wishes to withdraw from his Trading Account;
 > At the moment of payment, the Client's Free Margin exceeds the amount specified in the withdrawal instruction including all payment charges.
 
-The third condition is the most consequential: **[[Free Margin]] must exceed the withdrawal amount plus all fees**. This means a trader with $5,000 [[Balance]] but only $200 [[Free Margin]] (because open positions are consuming the rest as [[Necessary Margin]]) cannot withdraw $1,000 — even though their Balance shows it.
+The third condition is the most consequential: **[[Free Margin]] must exceed the withdrawal amount plus all fees**. This means a trader with \$5,000 [[Balance]] but only \$200 [[Free Margin]] (because open positions are consuming the rest as [[Necessary Margin]]) cannot withdraw \$1,000 — even though their Balance shows it.
 
 To withdraw funds tied up in margin, the trader must first close positions to release the margin.
 
@@ -62,9 +62,9 @@ The Withdrawal Conditions document and Client Agreement clause 15.5 establish a 
 
 In plain terms: if you deposited via Bank Card, you must withdraw to that same Bank Card first. Only once the original deposit amount has been withdrawn back to the original method can additional funds (representing trading profits) be withdrawn to a different method.
 
-This is anti-money-laundering compliance — required by international financial regulations. It also affects timing: bank card withdrawals can take days, while crypto withdrawals are typically faster. A trader who deposited $5,000 via card and made $3,000 profit must:
-- First withdraw at least $5,000 to the original card (slow)
-- Then can withdraw the remaining $3,000 profit to a different method (potentially faster)
+This is anti-money-laundering compliance — required by international financial regulations. It also affects timing: bank card withdrawals can take days, while crypto withdrawals are typically faster. A trader who deposited \$5,000 via card and made \$3,000 profit must:
+- First withdraw at least \$5,000 to the original card (slow)
+- Then can withdraw the remaining \$3,000 profit to a different method (potentially faster)
 
 **Credit card withdrawal cap:** The Company cannot send more funds back to the Client's credit card than initially deposited. Additional amounts will be sent via alternative payment gateway (Wire Transfer or e-wallet).
 
@@ -94,7 +94,7 @@ OPO offers an **Instant Withdrawal** feature for certain payment methods. With I
 - Available exclusively for **USDT-TRC20** and **e-wallet** withdrawals
 - Available 24/7, not just during business hours
 
-**Large Instant Withdrawal amounts:** For amounts exceeding $50,000, processing may take more than 1 hour during regular working hours, and up to 24 working hours during holidays or weekends.
+**Large Instant Withdrawal amounts:** For amounts exceeding \$50,000, processing may take more than 1 hour during regular working hours, and up to 24 working hours during holidays or weekends.
 
 **Eligibility conditions for Instant Withdrawal:**
 
@@ -154,7 +154,7 @@ The Withdrawal Conditions document clause 3.7 specifies that **third-party payme
 - Currency conversion fees (when withdrawing in a different currency than the account)
 - Crypto network fees
 
-These are deducted from the withdrawal amount, not from the trader's balance separately. A $1,000 withdrawal via bank wire might arrive as $975 after intermediary bank fees.
+These are deducted from the withdrawal amount, not from the trader's balance separately. A \$1,000 withdrawal via bank wire might arrive as \$975 after intermediary bank fees.
 
 For currency conversion: when withdrawing in a currency different from the account currency, OPO applies an exchange rate that includes its own conversion margin (Client Agreement clause 10.1). This can be significantly less favourable than the interbank rate.
 
@@ -244,7 +244,7 @@ Withdrawals at any broker are a higher-friction operation than deposits — this
 - Document the specific KYC verification levels that affect withdrawal limits — also not publicly documented
 - Document typical processing times by method based on OPO's actual recent performance, with the understanding that this is operational data and may need legal review before publishing
 - Confirm whether withdrawal requests can be cancelled by the trader before they are processed (if a trader changes their mind after submitting). Many brokers allow this; OPO documentation is silent
-- Confirm whether partial fills are possible (e.g., a $5,000 withdrawal request paying $2,500 immediately and the remainder after compliance review)
+- Confirm whether partial fills are possible (e.g., a \$5,000 withdrawal request paying \$2,500 immediately and the remainder after compliance review)
 - Document the appeals process for disputed withdrawal delays or refusals — see [[Complaints Procedure]] for general framework, but withdrawal-specific procedures may differ
 - Consider creating a separate sub-note "Instant Withdrawal" if the topic becomes complex enough to warrant standalone treatment
 - Consider creating a separate sub-note "Withdrawal Fees" to consolidate fee information across deposit-method matching rules, no-activity penalties, currency conversion costs, and third-party fees

@@ -20,7 +20,7 @@ version: "1"
 
 ## Simple explanation
 
-A dormant account is a trading account that has had **no trading activity** for six consecutive months. When OPO classifies an account as dormant, it begins charging a **$5 monthly maintenance fee** debited directly from the account balance. The fee continues until the account is either reactivated through trading activity, fully depleted, or closed.
+A dormant account is a trading account that has had **no trading activity** for six consecutive months. When OPO classifies an account as dormant, it begins charging a **\$5 monthly maintenance fee** debited directly from the account balance. The fee continues until the account is either reactivated through trading activity, fully depleted, or closed.
 
 This catches many traders by surprise. A trader who opens an account, deposits funds, doesn't get around to actually trading, and forgets about it can return months later to find the balance has been quietly drained by maintenance fees.
 
@@ -56,13 +56,13 @@ From the Client Agreement clause 9.11:
 
 So the mechanics are:
 - **Trigger:** 6 consecutive months without trading activity
-- **Fee:** $5 USD per month
+- **Fee:** \$5 USD per month
 - **Charging frequency:** First day of each calendar month
 - **Account currency:** If the account is denominated in a currency other than USD, the fee is converted at OPO's prevailing exchange rate (which incorporates OPO's discretion per Client Agreement clause 10.1)
 
-A trader who leaves $500 in an account and never returns will see:
+A trader who leaves \$500 in an account and never returns will see:
 - Months 1–6: no fees
-- Month 7 onward: $5 deducted on the 1st of each month
+- Month 7 onward: \$5 deducted on the 1st of each month
 - After approximately 100 months (≈8 years): account balance reaches zero
 
 ## What happens when the account balance reaches zero
@@ -88,7 +88,7 @@ The simplest answer: **make a trade every 5 months.** Any trade resets the dorma
 Practical alternatives:
 
 - **Place a pending order with a far-away trigger price.** Pending orders count as activity. Place a Buy Limit on EUR/USD at 0.5000 (no realistic chance of triggering) and your account stays active. You can cancel or modify the pending order later
-- **Withdraw the funds.** If you don't plan to trade for over 6 months, withdraw to a bank account or e-wallet. The dormancy clock keeps running, but **zero-balance dormant accounts are exempt from the $5/month fee** (Client Agreement clause 27.13(d)) — though OPO reserves the right to close zero-balance dormant accounts entirely
+- **Withdraw the funds.** If you don't plan to trade for over 6 months, withdraw to a bank account or e-wallet. The dormancy clock keeps running, but **zero-balance dormant accounts are exempt from the \$5/month fee** (Client Agreement clause 27.13(d)) — though OPO reserves the right to close zero-balance dormant accounts entirely
 
 What does **not** work:
 - Calling support and saying "I plan to come back"
@@ -127,7 +127,7 @@ From a trader perspective, the fee is best understood as a "use it or close it" 
 
 ## Risk warning
 
-The dormant account fee is small ($5/month) but compounds quietly over time. A trader who leaves a $500 balance and walks away for 8 years will find the entire balance has been consumed by fees, with the account ultimately closed. More importantly: many traders open accounts to "try out" a broker, deposit a moderate sum, never get serious about trading, and forget about the account entirely. Months or years later, they recall the deposit and find the balance dramatically reduced or zero. The Client Agreement provides no warning before dormancy fees begin — a trader is responsible for knowing about and remembering this provision. The simplest protection is to either trade at least every 5 months or withdraw remaining funds when stepping away from active trading.
+The dormant account fee is small (\$5/month) but compounds quietly over time. A trader who leaves a \$500 balance and walks away for 8 years will find the entire balance has been consumed by fees, with the account ultimately closed. More importantly: many traders open accounts to "try out" a broker, deposit a moderate sum, never get serious about trading, and forget about the account entirely. Months or years later, they recall the deposit and find the balance dramatically reduced or zero. The Client Agreement provides no warning before dormancy fees begin — a trader is responsible for knowing about and remembering this provision. The simplest protection is to either trade at least every 5 months or withdraw remaining funds when stepping away from active trading.
 
 ## Source
 
@@ -142,7 +142,7 @@ The dormant account fee is small ($5/month) but compounds quietly over time. A t
 - Confirm whether OPO sends any notification to clients before the dormancy classification begins — the Client Agreement is silent on this, but some regulators require advance notice (typically 30 days). Sending such a notice would significantly reduce trader complaints
 - Confirm per-account vs per-client dormancy treatment — this is a practical question traders frequently ask
 - Confirm the dormant-fee-vs-bonus-balance interaction — this should be explicitly documented
-- Confirm whether the $5/month fee is fixed or subject to change. The Client Agreement clause 9.2 allows OPO to change fees with website-posting notice, but historically this fee has been stable across brokers using similar models
+- Confirm whether the \$5/month fee is fixed or subject to change. The Client Agreement clause 9.2 allows OPO to change fees with website-posting notice, but historically this fee has been stable across brokers using similar models
 - Consider publishing the dormancy fee more prominently. Currently it's only in clause 9.11 of a 55-page agreement and is genuinely surprising to most traders. A prominent FAQ entry, account page mention, or onboarding notice would substantially reduce post-fee complaints
 - Document whether traders can dispute dormancy fees that they believe were applied incorrectly (e.g. due to a forgotten trade that should have reset the clock)
 

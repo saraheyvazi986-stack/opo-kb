@@ -43,7 +43,7 @@ Spread is measured in **pips** (or **pipettes** for fractional pips). For most m
 - If Bid = 1.1000 and Ask = 1.1002, the spread is **2 pips** (0.0002)
 - If Bid = 1.10005 and Ask = 1.10018, the spread is **1.3 pips** (sometimes written as 13 pipettes)
 
-The dollar cost of a 1-pip spread depends on trade size. For a standard lot (100,000 units) of EUR/USD, 1 pip ≈ $10. So a 2-pip spread on a 1-lot trade costs ~$20 immediately.
+The dollar cost of a 1-pip spread depends on trade size. For a standard lot (100,000 units) of EUR/USD, 1 pip ≈ \$10. So a 2-pip spread on a 1-lot trade costs ~\$20 immediately.
 
 ## Spread at OPO by account type
 
@@ -75,7 +75,7 @@ Standard, Social Trade, cTrader Copy, Black. There's **no per-trade commission**
 
 ### Spread plus commission accounts
 
-ECN, ECN Pro, Social Pro, cTrader ECN, cTrader ECN Plus. These accounts show **raw or near-raw spreads** but charge a separate per-lot [[Commission]]. The trader pays a small commission on every lot traded ($6/lot on ECN, $4/lot on ECN Pro and Plus).
+ECN, ECN Pro, Social Pro, cTrader ECN, cTrader ECN Plus. These accounts show **raw or near-raw spreads** but charge a separate per-lot [[Commission]]. The trader pays a small commission on every lot traded (\$6/lot on ECN, \$4/lot on ECN Pro and Plus).
 
 **Which is cheaper depends on trade size and frequency.** A low-volume trader placing occasional 0.1-lot trades often saves money on the spread-only model. A high-volume trader placing many full-lot trades typically saves on the commission model. See [[Commission]] for a worked comparison.
 
@@ -97,7 +97,7 @@ In practice, three things widen the spread you see on screen:
 
 Spread is paid **on every trade**, not just losing trades. A trader who places 10 trades per day, each 1 lot of EUR/USD on a Standard account with a 1.8-pip spread, pays roughly:
 
-Over a month of trading (~22 days), that's ~$3,960 in spread before considering profit or loss on the actual market moves. For a $5,000 account, that's 79% of capital paid in spread costs per month. Active traders typically use commission-based accounts (ECN, ECN Pro) specifically because the per-trade cost is lower.
+Over a month of trading (~22 days), that's ~\$3,960 in spread before considering profit or loss on the actual market moves. For a \$5,000 account, that's 79% of capital paid in spread costs per month. Active traders typically use commission-based accounts (ECN, ECN Pro) specifically because the per-trade cost is lower.
 
 ## How to reduce spread cost
 

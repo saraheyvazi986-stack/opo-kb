@@ -84,7 +84,7 @@ Several events affect all open positions on an account simultaneously:
 
 ## Risk warning
 
-An open position is a live exposure. Unlike completed transactions which are settled and final, open positions can move significantly between when you check your account and when you next look. A position that's $50 in profit when you go to bed can be hundreds of dollars in loss when you wake up, especially during weekend gaps for instruments that trade through weekends (crypto) or Monday-morning gaps for forex. Traders holding positions overnight, over weekends, or through major news events should size positions accordingly — assume the position can move 2–5× its normal range during these windows. The combination of leverage and open-position drift is the primary cause of unexpected account losses for new traders.
+An open position is a live exposure. Unlike completed transactions which are settled and final, open positions can move significantly between when you check your account and when you next look. A position that's \$50 in profit when you go to bed can be hundreds of dollars in loss when you wake up, especially during weekend gaps for instruments that trade through weekends (crypto) or Monday-morning gaps for forex. Traders holding positions overnight, over weekends, or through major news events should size positions accordingly — assume the position can move 2–5× its normal range during these windows. The combination of leverage and open-position drift is the primary cause of unexpected account losses for new traders.
 
 ## Source
 

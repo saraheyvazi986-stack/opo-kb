@@ -74,7 +74,7 @@ This means the trader cannot end up owing OPO money beyond the deposit. The nega
 
 Stop Out is preventable through risk management:
 
-- **Use position sizes appropriate to account balance** — a $500 account placing 1-lot trades on most instruments will reach Stop Out quickly
+- **Use position sizes appropriate to account balance** — a \$500 account placing 1-lot trades on most instruments will reach Stop Out quickly
 - **Watch [[Margin Level]] continuously**, not Balance
 - **Set Stop Loss orders** — these close losing trades at a level the trader chooses, rather than waiting for the broker to act
 - **Avoid opening positions immediately before high-volatility events** — economic news releases, market opens, weekends, gold market breaks

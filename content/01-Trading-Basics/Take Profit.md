@@ -36,11 +36,11 @@ The Take Profit waits dormant alongside the [[Stop Loss]]. The position remains 
 You open a long EUR/USD position at 1.1000 with a Stop Loss at 1.0970 and a Take Profit at 1.1060:
 
 - Entry: 1.1000 (Long)
-- Stop Loss: 1.0970 (30 pips risk = $300 max loss on 1 lot)
-- Take Profit: 1.1060 (60 pips reward = $600 profit on 1 lot)
+- Stop Loss: 1.0970 (30 pips risk = \$300 max loss on 1 lot)
+- Take Profit: 1.1060 (60 pips reward = \$600 profit on 1 lot)
 - Risk-to-reward ratio: 1:2
 
-You've pre-committed to two outcomes: either you lose $300, or you make $600. The market chooses which.
+You've pre-committed to two outcomes: either you lose \$300, or you make \$600. The market chooses which.
 
 ## Take Profit and risk-to-reward ratio
 

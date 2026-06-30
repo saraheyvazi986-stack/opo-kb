@@ -29,16 +29,16 @@ When you have no open positions, the formula returns infinity (you have Equity b
 ## Worked example
 
 Suppose:
-- Equity: $1,050
-- Used Margin: $300
+- Equity: \$1,050
+- Used Margin: \$300
 
 A 350% Margin Level means you have 3.5 times more Equity than the broker requires to keep your positions open. You're well clear of margin pressure.
 
-If your positions then move against you and Equity drops to $400:
+If your positions then move against you and Equity drops to \$400:
 
 You're approaching the danger zone. Margin Call may be imminent.
 
-If Equity drops to $250:
+If Equity drops to \$250:
 You're below 100% — your Equity is no longer enough to cover the margin required by your open positions. Stop Out is imminent or already executing.
 
 ## Margin Level thresholds at OPO

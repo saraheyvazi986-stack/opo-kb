@@ -44,7 +44,7 @@ The other entities exist as part of the group's regulatory structure but do not 
 - **2025** — Additional group entity registrations completed in South Africa (FSCA license 54594, May 2025) and Seychelles
 - **2026** — Over 100,000 clients served
 
-The company has positioned itself in the "fast-growing offshore broker" category, with emphasis on platform variety, low minimum deposit ($100), and aggressive promotional offers.
+The company has positioned itself in the "fast-growing offshore broker" category, with emphasis on platform variety, low minimum deposit (\$100), and aggressive promotional offers.
 
 ## What OPO offers traders
 
@@ -66,9 +66,9 @@ See [[Platforms Overview]] for detailed comparison.
 
 Multiple account types serving different trader profiles:
 
-- **[[Standard Account]]** — entry-level, spread-based pricing, $100 minimum deposit
-- **[[ECN Account]]** — tighter spreads with commission, $300 minimum
-- **[[ECN Pro Account]]** — institutional-grade spreads, $5,000 minimum
+- **[[Standard Account]]** — entry-level, spread-based pricing, \$100 minimum deposit
+- **[[ECN Account]]** — tighter spreads with commission, \$300 minimum
+- **[[ECN Pro Account]]** — institutional-grade spreads, \$5,000 minimum
 - **[[Black Account]]** — premium tier, larger minimum, enhanced services
 - **[[Social Trade Account]]** — for copy trading
 - **Social Pro Account** — enhanced social trading tier (note: not yet documented as separate KB note)
@@ -109,7 +109,7 @@ Beyond core trading:
 
 OPO positions itself in the market on several specific dimensions:
 
-1. **Accessibility** — $100 minimum deposit, broad country acceptance (subject to [[Restricted Countries]])
+1. **Accessibility** — \$100 minimum deposit, broad country acceptance (subject to [[Restricted Countries]])
 2. **Platform variety** — five platforms vs. competitors typically offering one or two
 3. **High leverage** — up to 1:2000 in the High Leverage tier
 4. **Fast withdrawals** — Instant Withdrawal feature for crypto and select e-wallets
@@ -130,7 +130,7 @@ For accuracy, it's worth being clear about what OPO is not:
 
 Based on public reviews and OPO's own marketing, common reasons traders choose the broker:
 
-- Low entry barrier ($100 minimum)
+- Low entry barrier (\$100 minimum)
 - Wide platform choice
 - Bonus and promotional programs
 - High leverage availability

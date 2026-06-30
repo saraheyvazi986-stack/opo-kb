@@ -30,16 +30,16 @@ The volume requirement specifies how many lots you must trade to "earn" the bonu
 
 > **(Total Bonus Amount x 4) = Number of Standard Lots required**
 
-**Example from the PDF (clause 2.7):** A client deposits $1,000 and receives a 30% bonus = $300 bonus credit. The volume requirement is 75 standard lots.
+**Example from the PDF (clause 2.7):** A client deposits \$1,000 and receives a 30% bonus = \$300 bonus credit. The volume requirement is 75 standard lots.
 
 | Bonus amount | Required standard lots |
 |---|---|
-| $100 bonus | 25 lots |
-| $300 bonus | 75 lots |
-| $500 bonus | 125 lots |
-| $1,000 bonus | 250 lots |
+| \$100 bonus | 25 lots |
+| \$300 bonus | 75 lots |
+| \$500 bonus | 125 lots |
+| \$1,000 bonus | 250 lots |
 
-> **Internal review note — PDF inconsistency:** The formula text in clause 2.7 says "Total Bonus Amount **x 4**" (multiply by 4), but the worked example in the same clause shows $300 bonus = 75 standard lots, which is $300 **÷ 4** = 75 (i.e., 0.25 lots per dollar of bonus). These are contradictory: multiplying $300 by 4 would yield 1,200 lots, not 75. The example (the concrete reference) yields Bonus ÷ 4 = lots. This inconsistency exists in the source PDF and should be raised with the document owner for clarification. Until resolved, the example figure (75 lots for a $300 bonus) is used as the authoritative reference throughout this article.
+> **Internal review note — PDF inconsistency:** The formula text in clause 2.7 says "Total Bonus Amount **x 4**" (multiply by 4), but the worked example in the same clause shows \$300 bonus = 75 standard lots, which is \$300 **÷ 4** = 75 (i.e., 0.25 lots per dollar of bonus). These are contradictory: multiplying \$300 by 4 would yield 1,200 lots, not 75. The example (the concrete reference) yields Bonus ÷ 4 = lots. This inconsistency exists in the source PDF and should be raised with the document owner for clarification. Until resolved, the example figure (75 lots for a \$300 bonus) is used as the authoritative reference throughout this article.
 
 The specific multiplier for any given bonus may vary by promotion — traders should check the current promotion terms before accepting.
 
@@ -71,9 +71,9 @@ The Bonus Programs document specifies which trades count toward the volume requi
 
 ## A worked example
 
-Suppose a trader deposits $1,000 and receives a 30% Deposit Bonus = $300 bonus credit with a 90-day expiry.
+Suppose a trader deposits \$1,000 and receives a 30% Deposit Bonus = \$300 bonus credit with a 90-day expiry.
 
-**Required volume:** 75 standard lots (per clause 2.7: $300 bonus = 75 lots)
+**Required volume:** 75 standard lots (per clause 2.7: \$300 bonus = 75 lots)
 
 **Calculating realistic feasibility:**
 
@@ -89,7 +89,7 @@ For a trader placing 1 trade of 0.5 lots per day, that's 0.5 lots/day, hitting 4
 
 For a position trader holding 1 trade per week of 1.0 lots, that's about 13 lots in 90 days — far short of the requirement. This trader cannot realistically convert the bonus.
 
-The lesson: **the trader's actual trading style determines whether the volume requirement is achievable**. Based on the PDF formula (Bonus Amount × 4 = lots), a $300 bonus requires 75 lots in 90 days — realistic for active traders but unconvertible for position traders. Position traders should generally decline bonuses.
+The lesson: **the trader's actual trading style determines whether the volume requirement is achievable**. Based on the PDF formula (Bonus Amount × 4 = lots), a \$300 bonus requires 75 lots in 90 days — realistic for active traders but unconvertible for position traders. Position traders should generally decline bonuses.
 
 ## Time limits on volume requirements
 
@@ -167,13 +167,13 @@ If any of these questions cannot be clearly answered from the bonus terms, decli
 
 Volume requirements are the mechanism that makes most bonuses net-zero or net-negative for the trader. The math:
 
-A trader who trades 50 lots specifically to meet a $500 bonus requirement pays:
-- [[Spread]] on every trade (50 lots × typical 1.5 pip spread on EUR/USD = ~$750 in spread costs)
-- [[Commission]] if applicable (50 lots × $6/lot on ECN = $300 in commission)
+A trader who trades 50 lots specifically to meet a \$500 bonus requirement pays:
+- [[Spread]] on every trade (50 lots × typical 1.5 pip spread on EUR/USD = ~\$750 in spread costs)
+- [[Commission]] if applicable (50 lots × \$6/lot on ECN = \$300 in commission)
 - [[Swap]] charges on any positions held overnight
 - Trading risk on every position (some will be losing trades)
 
-So earning a $500 bonus costs the trader approximately $750-1,000+ in trading costs alone, before counting any losses on the trades themselves. The bonus is only valuable if:
+So earning a \$500 bonus costs the trader approximately \$750-1,000+ in trading costs alone, before counting any losses on the trades themselves. The bonus is only valuable if:
 
 - The trader was going to trade that volume anyway
 - The trading costs are roughly offset by trading profits (the trader has a positive expectancy)

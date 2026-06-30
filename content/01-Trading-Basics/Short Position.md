@@ -52,7 +52,7 @@ You sell 1 lot of EUR/USD when the quote is `1.10005 / 1.10018`:
 A few hours later, EUR/USD has fallen. The quote is now `1.09480 / 1.09493`:
 - You close by buying at the [[Ask]]: 1.09493
 - Movement: 1.10005 – 1.09493 = 0.00512 = **51.2 pips profit**
-- Dollar profit on 1 lot: 51.2 × $10/pip = **$512**
+- Dollar profit on 1 lot: 51.2 × \$10/pip = **\$512**
 
 As with long positions, the trade started at an immediate paper loss equal to the spread. The market had to move 1.3 pips downward just for the trade to break even.
 
@@ -70,9 +70,9 @@ Traders go short when they believe:
 
 There's an asymmetry in short position risk that doesn't apply to long positions:
 
-**Long position maximum loss:** the price can go to zero. A $100 stock can lose at most $100. Loss is bounded.
+**Long position maximum loss:** the price can go to zero. A \$100 stock can lose at most \$100. Loss is bounded.
 
-**Short position maximum loss:** the price can rise indefinitely. There's no theoretical cap on how high a price can go. A $100 stock could rise to $200, $500, or higher — and a short position loses on the full move.
+**Short position maximum loss:** the price can rise indefinitely. There's no theoretical cap on how high a price can go. A \$100 stock could rise to \$200, \$500, or higher — and a short position loses on the full move.
 
 In practice, on a leveraged CFD account, this asymmetry is contained by [[Margin Call]] and [[Stop Out]] — OPO closes the position automatically before losses become catastrophic. But traders should understand the underlying mathematical asymmetry, because it manifests during fast adverse moves (short squeezes, major news spikes) where the broker may not be able to close positions before losses are substantial.
 

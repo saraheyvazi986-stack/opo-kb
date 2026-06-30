@@ -56,7 +56,7 @@ When Margin Level drops too low, OPO is contractually entitled to close position
 The exact formula depends on the instrument, but the general structure is:
 
 For example, opening a 1-lot EUR/USD position (100,000 EUR) at a price of 1.10, on 1:500 leverage:
-So $220 of the trader's Free Margin is locked as Initial Margin for that one position. The remaining Free Margin is available for further positions.
+So \$220 of the trader's Free Margin is locked as Initial Margin for that one position. The remaining Free Margin is available for further positions.
 
 For exact margin requirements per instrument, traders should consult the Contract Specifications on the OPO website or inside their trading platform.
 

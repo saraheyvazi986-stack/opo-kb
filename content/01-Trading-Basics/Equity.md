@@ -34,10 +34,10 @@ Add unrealized profit to Balance, subtract unrealized loss, and you have Equity.
 ## Example
 
 Suppose your account shows:
-- Balance: $1,000
-- One open position currently showing $80 in unrealized profit
-- One open position currently showing $30 in unrealized loss
-If both trades were closed at this moment, your Balance would become $1,050 and your Equity would equal that same $1,050. Until the positions close, Equity is a snapshot of "what your account is worth right now" — and it moves constantly.
+- Balance: \$1,000
+- One open position currently showing \$80 in unrealized profit
+- One open position currently showing \$30 in unrealized loss
+If both trades were closed at this moment, your Balance would become \$1,050 and your Equity would equal that same \$1,050. Until the positions close, Equity is a snapshot of "what your account is worth right now" — and it moves constantly.
 
 ## Why Equity matters
 
@@ -47,7 +47,7 @@ Equity drives every automatic risk decision on your account:
 - **Margin Level is calculated from Equity**, not Balance. See [[Margin Level]].
 - **Stop Out is triggered based on Equity**, not Balance. The Client Agreement clause 14.6 states OPO "is entitled to close the Client's Open Positions without the consent of the Client or any prior Written Notice if the Equity is less than certain rate depending on the account type."
 
-This is the key insight: a trader can have $10,000 of Balance but only $200 of Equity if their open positions are deep in unrealized loss. The broker acts on the $200, not the $10,000.
+This is the key insight: a trader can have \$10,000 of Balance but only \$200 of Equity if their open positions are deep in unrealized loss. The broker acts on the \$200, not the \$10,000.
 
 ## Equity vs Balance — why they differ
 

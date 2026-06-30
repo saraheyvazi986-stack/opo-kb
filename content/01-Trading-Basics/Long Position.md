@@ -44,7 +44,7 @@ You buy 1 lot of EUR/USD when the quote is `1.10005 / 1.10018`:
 A few hours later, EUR/USD has risen. The quote is now `1.10523 / 1.10535`:
 - You close by selling at the [[Bid]]: 1.10523
 - Movement: 1.10523 – 1.10018 = 0.00505 = **50.5 pips profit**
-- Dollar profit on 1 lot: 50.5 × $10/pip = **$505**
+- Dollar profit on 1 lot: 50.5 × \$10/pip = **\$505**
 
 Note that the trade *started* at an immediate paper loss equal to the spread. The market had to move at least 1.3 pips upward just for the trade to break even — see [[Spread]] for why.
 
@@ -63,9 +63,9 @@ Long is also the natural fit for instruments where shorting is restricted, compl
 
 When you open a long position with [[Leverage]], you control much more of the instrument than your [[Margin]] alone would buy:
 
-- $1,000 margin at 1:100 leverage = $100,000 of EUR/USD exposure (1 lot)
-- A 1% rise in EUR/USD produces $1,000 profit
-- A 1% fall produces $1,000 loss — wiping out the margin
+- \$1,000 margin at 1:100 leverage = \$100,000 of EUR/USD exposure (1 lot)
+- A 1% rise in EUR/USD produces \$1,000 profit
+- A 1% fall produces \$1,000 loss — wiping out the margin
 
 The full exposure determines profit and loss, not just the margin. This is why position sizing matters more than direction — being right about direction with a too-large lot still produces large losses on small adverse moves.
 

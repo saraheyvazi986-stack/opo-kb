@@ -22,7 +22,7 @@ Leverage is a borrowing arrangement that lets you control a position much larger
 
 > Leverage is offered by brokers to maximize traders' buying power by giving them the ability to deposit a small amount of funds and trade larger volumes. Leverage is expressed as a ratio form, so if it is 1:30 for example, a trader's buying power is magnified 30 times.
 
-In plain terms: with 1:100 leverage and $1,000 in your account, you can open positions worth up to $100,000 in market exposure. The broker is effectively letting you "borrow" the difference.
+In plain terms: with 1:100 leverage and \$1,000 in your account, you can open positions worth up to \$100,000 in market exposure. The broker is effectively letting you "borrow" the difference.
 
 ## How leverage works mathematically
 
@@ -31,10 +31,10 @@ When you open a leveraged position, you're not actually borrowing cash — you'r
 Margin required = Position size ÷ Leverage ratio
 
 Example: opening a 1-lot EUR/USD position worth €100,000 at 1:100 leverage:
-Margin = 100,000 ÷ 100 = $1,000
+Margin = 100,000 ÷ 100 = \$1,000
 
 
-So $1,000 of your account is locked as Initial Margin. But your profit and loss is calculated on the **full €100,000** of exposure — not on the $1,000 of margin.
+So \$1,000 of your account is locked as Initial Margin. But your profit and loss is calculated on the **full €100,000** of exposure — not on the \$1,000 of margin.
 
 ## Why this amplifies both profit and loss
 
@@ -42,8 +42,8 @@ A 1% favourable move in the market produces:
 
 | Without leverage | With 1:100 leverage |
 |---|---|
-| $1,000 invested → $1,010 (1% gain) | $1,000 margin → $2,000 (100% gain) |
-| $1,000 invested → $990 (1% loss) | $1,000 margin → $0 (100% loss — margin wiped out) |
+| \$1,000 invested → \$1,010 (1% gain) | \$1,000 margin → \$2,000 (100% gain) |
+| \$1,000 invested → \$990 (1% loss) | \$1,000 margin → \$0 (100% loss — margin wiped out) |
 
 Leverage doesn't change market risk — it changes the **scale of impact** market moves have on your account. The market moved the same 1%. The trader's outcome was wildly different.
 

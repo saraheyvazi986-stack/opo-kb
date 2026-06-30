@@ -59,8 +59,8 @@ A typical bonus structure:
 
 | Deposit | Bonus % | Bonus credit added | New trading capital |
 |---|---|---|---|
-| $1,000 | 50% | $500 | $1,500 |
-| $5,000 | 100% | $5,000 | $10,000 |
+| \$1,000 | 50% | \$500 | \$1,500 |
+| \$5,000 | 100% | \$5,000 | \$10,000 |
 
 The trader sees the bonus credit reflected in their [[Balance]] or as a separate bonus balance. They can use this capital to open positions just like real deposited funds. But the bonus comes with strings attached.
 
@@ -157,9 +157,9 @@ The combination is particularly punitive.
 
 If a trader has active bonus credit and the account becomes dormant (no trading for 6 months per [[Dormant Account Policy]]), the interaction is unclear:
 
-- The dormant account fee ($5/month) begins
+- The dormant account fee (\$5/month) begins
 - The bonus is typically removed when the account becomes dormant, but exact timing is not specified
-- A trader with $500 deposit + $500 bonus who becomes dormant may find: bonus removed, $500 deposit slowly drained by fees, account eventually closed
+- A trader with \$500 deposit + \$500 bonus who becomes dormant may find: bonus removed, \$500 deposit slowly drained by fees, account eventually closed
 
 ### Interaction with Leverage Adjustment Policy
 
@@ -188,7 +188,7 @@ Each specific bonus has its own detailed terms. The general framework described 
 The bonus is optional — traders can decline. Practical guidance:
 
 1. **Read the specific bonus terms in full.** Volume requirements, expiry dates, withdrawal interactions. Don't accept based on the headline percentage alone
-2. **Calculate the volume requirement.** If the bonus requires 5 lots per $1 of bonus to convert, ask: is that achievable for your trading style and timeframe?
+2. **Calculate the volume requirement.** If the bonus requires 5 lots per \$1 of bonus to convert, ask: is that achievable for your trading style and timeframe?
 3. **Confirm your account type and leverage are bonus-eligible.** High Leverage accounts and 1:1000+ leverage accounts may not qualify
 4. **Plan for the withdrawal interaction.** If you might need to withdraw funds during the bonus period, calculate the cost of bonus forfeiture
 5. **Don't increase position sizes based on the bonus.** Sizing positions to risk a fixed percentage of your *deposited* capital remains the safer approach

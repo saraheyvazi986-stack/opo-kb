@@ -28,7 +28,7 @@ OPO establishes Negative Balance Protection in the Client Agreement clause 15.8:
 
 ## Why this matters
 
-Without Negative Balance Protection, leveraged CFD trading would carry potentially unlimited downside. A trader with $1,000 in their account, using 1:500 leverage to control a $500,000 position, could in theory lose far more than $1,000 if the market moved violently against them — they would owe the broker the difference, possibly tens of thousands of dollars.
+Without Negative Balance Protection, leveraged CFD trading would carry potentially unlimited downside. A trader with \$1,000 in their account, using 1:500 leverage to control a \$500,000 position, could in theory lose far more than \$1,000 if the market moved violently against them — they would owe the broker the difference, possibly tens of thousands of dollars.
 
 This actually happened in January 2015 when the Swiss National Bank removed the EUR/CHF peg. The pair moved hundreds of pips in seconds, and many traders worldwide ended up owing brokers amounts that exceeded their account balances by 10x, 100x, or more. Some brokers pursued these debts; some absorbed them; some went bankrupt because the losses cascaded back to them from clients who simply couldn't pay.
 

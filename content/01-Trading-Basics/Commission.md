@@ -29,13 +29,13 @@ OPO charges commission **per lot traded**, in USD. The published rates from the 
 | Account | Commission per lot |
 |---|---|
 | [[Standard Account]] | None |
-| [[ECN Account]] | $6 per lot |
-| [[ECN Pro Account]] | $4 per lot |
+| [[ECN Account]] | \$6 per lot |
+| [[ECN Pro Account]] | \$4 per lot |
 | [[Social Trade Account]] | None |
-| [[Social Pro Account]] | $4 per lot |
+| [[Social Pro Account]] | \$4 per lot |
 | [[Black Account]] | None |
-| [[cTrader ECN Account]] | $6 per lot |
-| [[cTrader ECN Plus Account]] | $4 per lot |
+| [[cTrader ECN Account]] | \$6 per lot |
+| [[cTrader ECN Plus Account]] | \$4 per lot |
 | [[cTrader Copy Account]] | None |
 
 **Important: the published rate is typically the round-turn commission** (entry plus exit combined), but some brokers quote it as per-side. OPO documentation does not explicitly clarify which model applies — this needs confirmation. If the rate is per-side, the actual cost of a complete trade is double the quoted figure.
@@ -57,31 +57,31 @@ This means: OPO can change commission rates at any time, and posting on the webs
 Consider a trader placing one full lot (100,000 units) of EUR/USD on OPO:
 
 **Standard Account** (no commission, 1.8-pip spread):
-- Spread cost: 1.8 pips × $10/pip = **$18**
-- Commission: $0
-- **Total round-turn cost: $18**
+- Spread cost: 1.8 pips × \$10/pip = **\$18**
+- Commission: \$0
+- **Total round-turn cost: \$18**
 
-**ECN Account** ($6/lot commission, 0.8-pip spread):
-- Spread cost: 0.8 pips × $10/pip = $8
-- Commission: $6 (assuming round-turn)
-- **Total round-turn cost: $14**
+**ECN Account** (\$6/lot commission, 0.8-pip spread):
+- Spread cost: 0.8 pips × \$10/pip = \$8
+- Commission: \$6 (assuming round-turn)
+- **Total round-turn cost: \$14**
 
-**ECN Pro Account** ($4/lot commission, 0.0-pip spread):
-- Spread cost: 0.0 pips × $10/pip = $0 (best case)
-- Commission: $4
-- **Total round-turn cost: $4** (best case)
+**ECN Pro Account** (\$4/lot commission, 0.0-pip spread):
+- Spread cost: 0.0 pips × \$10/pip = \$0 (best case)
+- Commission: \$4
+- **Total round-turn cost: \$4** (best case)
 
-On a 1-lot EUR/USD trade, ECN Pro is dramatically cheaper than Standard — about 4× cheaper. **But this only matters if you're trading enough volume to amortize the $5,000 minimum deposit.** A trader making one trade per week saves $14 a week on ECN Pro vs Standard — about $728/year. That's worth it. A trader making one trade per month saves $14/month — about $168/year. That doesn't justify the higher account minimum.
+On a 1-lot EUR/USD trade, ECN Pro is dramatically cheaper than Standard — about 4× cheaper. **But this only matters if you're trading enough volume to amortize the \$5,000 minimum deposit.** A trader making one trade per week saves \$14 a week on ECN Pro vs Standard — about \$728/year. That's worth it. A trader making one trade per month saves \$14/month — about \$168/year. That doesn't justify the higher account minimum.
 
 ## Commission on partial lots
 
 Commission scales linearly with trade size. A 0.5-lot trade pays half the per-lot commission; a 0.1-lot trade pays one-tenth.
 
-On ECN at $6/lot:
-- 1.0 lot trade: $6 commission
-- 0.5 lot trade: $3 commission
-- 0.1 lot trade: $0.60 commission
-- 0.01 lot trade (minimum): $0.06 commission
+On ECN at \$6/lot:
+- 1.0 lot trade: \$6 commission
+- 0.5 lot trade: \$3 commission
+- 0.1 lot trade: \$0.60 commission
+- 0.01 lot trade (minimum): \$0.06 commission
 
 This is one reason small-account traders should use the [[Standard Account]] — the commission per trade is tiny but the spread cost is also proportionally small, and the spread-only model avoids the per-trade overhead of commission accounting.
 
@@ -97,7 +97,7 @@ So traders can verify commission charges by checking their account's transaction
 
 Beyond per-trade commission, OPO has several other potential charges. These are not strictly "commission" but they affect the total cost of running a trading account:
 
-- **Inactivity / dormant account fee** — $5 per month after 6 consecutive months of no trading activity (Client Agreement clauses 9.11, 27.13). See [[Dormant Account Policy]].
+- **Inactivity / dormant account fee** — \$5 per month after 6 consecutive months of no trading activity (Client Agreement clauses 9.11, 27.13). See [[Dormant Account Policy]].
 - **No-activity withdrawal fee** — 3% to 6% of withdrawal amount if a trader deposits, doesn't trade, then withdraws (Client Agreement clause 6.14). See [[Withdrawal Procedure]].
 - **Currency conversion fees** — when depositing or withdrawing in a currency other than the account currency, OPO applies a conversion rate that includes an implicit fee. The Client Agreement clause 10.1 gives OPO discretion over the conversion rate.
 - **Payment processor fees** — passed through from third parties (clause 3.7 of Withdrawal Conditions).
@@ -123,7 +123,7 @@ Commission is the cleaner, more transparent of the two primary cost models — i
 
 ## Internal review notes
 
-- **CRITICAL: Confirm whether quoted commission rates ($6, $4) are round-turn or per-side.** This is a fundamental question that the public documentation does not explicitly answer. If per-side, the actual trade cost is double what most traders will assume from reading the account pages
+- **CRITICAL: Confirm whether quoted commission rates (\$6, \$4) are round-turn or per-side.** This is a fundamental question that the public documentation does not explicitly answer. If per-side, the actual trade cost is double what most traders will assume from reading the account pages
 - Confirm SVG-jurisdiction commissions apply globally, or split when ASIC, FSCA, and Seychelles agreements are obtained
 - Confirm exact timing of commission deduction — at open, at close, or split — and how this is displayed in MT4, MT5, cTrader, and OpoTrade
 - Confirm whether commission is charged separately for partial closes of a position

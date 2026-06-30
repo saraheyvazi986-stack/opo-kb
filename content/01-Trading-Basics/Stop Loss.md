@@ -38,9 +38,9 @@ You open a long EUR/USD position at 1.1000 with a Stop Loss at 1.0970:
 - Entry: 1.1000 (Long)
 - Stop Loss: 1.0970 (30 pips below entry)
 - Lot size: 1.0
-- Maximum loss if SL triggers: 30 pips × $10/pip = **$300**
+- Maximum loss if SL triggers: 30 pips × \$10/pip = **\$300**
 
-Whatever the market does, your loss on this trade is capped at approximately $300 (assuming no slippage). Even if EUR/USD crashes 500 pips overnight, your loss stops at 30 pips. The Stop Loss is your circuit breaker.
+Whatever the market does, your loss on this trade is capped at approximately \$300 (assuming no slippage). Even if EUR/USD crashes 500 pips overnight, your loss stops at 30 pips. The Stop Loss is your circuit breaker.
 
 ## What Stop Loss is NOT
 
@@ -66,7 +66,7 @@ A Stop Loss doesn't earn anything. Many beginners think "if my stop is hit, I lo
 
 ### 3. A substitute for position sizing
 
-A trader using a 50-pip Stop Loss on a 10-lot trade has a $5,000 maximum loss. A trader using a 50-pip Stop Loss on a 0.1-lot trade has a $50 maximum loss. **The Stop Loss is in pips; the actual dollar risk is set by lot size**. See [[Lot]] for position-sizing math.
+A trader using a 50-pip Stop Loss on a 10-lot trade has a \$5,000 maximum loss. A trader using a 50-pip Stop Loss on a 0.1-lot trade has a \$50 maximum loss. **The Stop Loss is in pips; the actual dollar risk is set by lot size**. See [[Lot]] for position-sizing math.
 
 ## Where to place a Stop Loss
 
@@ -78,7 +78,7 @@ There is no universally correct Stop Loss distance — it depends on strategy, i
 
 **Fixed-pip placement:** Always 30 pips below entry, for example. Simple but doesn't adapt to market conditions.
 
-**Risk-based placement:** Calculate from the dollar amount you're willing to risk. If you'll risk $50 on a trade at $1/pip (0.1 lot), your SL must be within 50 pips of entry.
+**Risk-based placement:** Calculate from the dollar amount you're willing to risk. If you'll risk \$50 on a trade at \$1/pip (0.1 lot), your SL must be within 50 pips of entry.
 
 **Most professional traders combine technical and risk-based approaches:** find a technically valid SL level, calculate the dollar risk at that distance, and adjust lot size so the risk matches their per-trade rule (usually 1–2% of account).
 
@@ -89,7 +89,7 @@ A Trailing Stop is a Stop Loss that automatically adjusts in your favour as the 
 - Initial Stop Loss: 1.0970 (30 pips below entry at 1.1000)
 - Market rises to 1.1050. Trailing Stop tightens to 1.1020 (now 30 pips below current price)
 - Market rises to 1.1100. Trailing Stop tightens to 1.1070
-- Market reverses to 1.1071. Position closes — but at a $700 profit, not a $300 loss
+- Market reverses to 1.1071. Position closes — but at a \$700 profit, not a \$300 loss
 
 The Trailing Stop locks in profits while still using the same "cap losses if the market reverses" logic.
 

@@ -139,7 +139,7 @@ Some OPO bonuses include restrictions on the deposit method used to qualify:
 
 - Cryptocurrency deposits often have different bonus terms than card or bank deposits
 - Some bonuses exclude certain payment methods entirely (e.g. specific e-wallets)
-- Bonus matching may apply per-deposit rather than cumulatively (so 10 × $100 deposits may not equal one $1,000 deposit for bonus purposes)
+- Bonus matching may apply per-deposit rather than cumulatively (so 10 × \$100 deposits may not equal one \$1,000 deposit for bonus purposes)
 
 These restrictions are typically in each bonus's specific terms, not in the general Bonus Programs document.
 

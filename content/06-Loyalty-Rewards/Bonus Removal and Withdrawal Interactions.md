@@ -45,25 +45,25 @@ This is the most common and surprising removal trigger. The Bonus Programs docum
 
 What this means in practice:
 
-Suppose a trader deposits $1,000 and receives a $500 bonus. Their starting state:
-- Deposit: $1,000
-- Bonus: $500
-- Total Equity: $1,500
+Suppose a trader deposits \$1,000 and receives a \$500 bonus. Their starting state:
+- Deposit: \$1,000
+- Bonus: \$500
+- Total Equity: \$1,500
 
-If trading losses bring Equity down to $1,000 (matching the original deposit), **the bonus is removed**.
+If trading losses bring Equity down to \$1,000 (matching the original deposit), **the bonus is removed**.
 
 After bonus removal:
-- Deposit Balance: $1,000 (theoretical maximum — but Equity is also $1,000 now)
-- Bonus: $0 (removed)
-- Total Equity: $1,000
+- Deposit Balance: \$1,000 (theoretical maximum — but Equity is also \$1,000 now)
+- Bonus: \$0 (removed)
+- Total Equity: \$1,000
 
 The trader still has their original deposit. They've lost the bonus.
 
 This is intentional — the bonus serves as a "first-loss" buffer. The broker effectively offers the bonus credit as risk capital, and when losses consume that buffer, the bonus disappears and the trader's own capital is at risk going forward.
 
-**Why this catches traders by surprise:** when a trader sees $1,500 in Equity after deposit + bonus, they often size positions based on the $1,500 figure. A loss that reduces Equity by $500 — bringing it to $1,000 — feels like a loss of bonus only. But it also triggers complete removal of the remaining bonus structure. The trader now faces their next trade with $1,000 (real capital) and no bonus buffer.
+**Why this catches traders by surprise:** when a trader sees \$1,500 in Equity after deposit + bonus, they often size positions based on the \$1,500 figure. A loss that reduces Equity by \$500 — bringing it to \$1,000 — feels like a loss of bonus only. But it also triggers complete removal of the remaining bonus structure. The trader now faces their next trade with \$1,000 (real capital) and no bonus buffer.
 
-**Practical implication for risk management:** position size based on deposited capital, not bonus-inflated equity. If you have $1,000 deposit + $500 bonus, treat the trading capital as $1,000 for risk-management purposes. The $500 bonus is the "free shot" — losing it costs nothing real, but it goes away entirely once losses match the deposit amount.
+**Practical implication for risk management:** position size based on deposited capital, not bonus-inflated equity. If you have \$1,000 deposit + \$500 bonus, treat the trading capital as \$1,000 for risk-management purposes. The \$500 bonus is the "free shot" — losing it costs nothing real, but it goes away entirely once losses match the deposit amount.
 
 ## Trigger 2: Voluntary withdrawal
 
@@ -85,19 +85,19 @@ The Bonus Programs document is somewhat inconsistent on partial-withdrawal handl
 ### A worked example
 
 A trader has:
-- Deposit: $2,000
-- Bonus: $1,000 (50% Welcome Bonus)
-- Current Equity: $3,200 (some profits accumulated)
+- Deposit: \$2,000
+- Bonus: \$1,000 (50% Welcome Bonus)
+- Current Equity: \$3,200 (some profits accumulated)
 - Volume requirement: 30% completed (not yet converted)
 
-The trader requests a withdrawal of $500 from their deposited funds.
+The trader requests a withdrawal of \$500 from their deposited funds.
 
 **Possible outcomes depending on bonus terms:**
 
 | Outcome | Result |
 |---|---|
-| Bonus removed entirely (most common) | Account: $500 withdrawn, $1,500 deposit + $0 bonus + $200 retained profit = $1,700 Equity |
-| Proportional reduction (less common) | Account: $500 withdrawn, $1,500 deposit + $750 reduced bonus + $200 retained profit = $2,450 Equity |
+| Bonus removed entirely (most common) | Account: \$500 withdrawn, \$1,500 deposit + \$0 bonus + \$200 retained profit = \$1,700 Equity |
+| Proportional reduction (less common) | Account: \$500 withdrawn, \$1,500 deposit + \$750 reduced bonus + \$200 retained profit = \$2,450 Equity |
 | Bonus locked until full deposit re-paid (rare) | Withdrawal allowed, but bonus frozen pending re-deposit |
 
 The trader cannot know in advance which outcome will apply without reading the specific bonus terms for the bonus they accepted.
@@ -170,7 +170,7 @@ Several other situations can result in bonus removal:
 
 ### Account dormancy
 
-The [[Dormant Account Policy]] (6 months of no trading) typically results in bonus removal. The specific timing isn't documented in the Client Agreement — typically the bonus is removed when the dormancy classification activates, alongside the $5/month maintenance fee accrual.
+The [[Dormant Account Policy]] (6 months of no trading) typically results in bonus removal. The specific timing isn't documented in the Client Agreement — typically the bonus is removed when the dormancy classification activates, alongside the \$5/month maintenance fee accrual.
 
 ### KYC issues and Close-Only Mode
 

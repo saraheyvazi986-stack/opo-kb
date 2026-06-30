@@ -62,7 +62,7 @@ Different instruments have different natural unit sizes:
 
 - **Forex pairs** trade in millions or hundreds of thousands of units — making 100,000 a sensible "lot" size
 - **Gold** trades in much smaller absolute quantities by weight — 100 ounces is a manageable lot
-- **Crypto** can be highly priced (BTC at $50,000) — making 1 unit a reasonable lot
+- **Crypto** can be highly priced (BTC at \$50,000) — making 1 unit a reasonable lot
 - **Stocks** trade in single-share increments — 1 share per lot reflects the underlying market
 
 The conventions are inherited from the underlying spot, futures, and OTC markets. OPO respects them so that traders moving between brokers find familiar lot definitions.

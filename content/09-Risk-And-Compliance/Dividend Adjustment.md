@@ -29,7 +29,7 @@ The policy is documented in the Client Agreement clause 9.14.
 
 To understand the CFD adjustment, it helps to understand what happens to the underlying stock:
 
-1. **Declaration date:** the company announces a dividend will be paid (e.g. "$0.50 per share dividend, ex-date June 15, payable July 1")
+1. **Declaration date:** the company announces a dividend will be paid (e.g. "\$0.50 per share dividend, ex-date June 15, payable July 1")
 2. **Ex-dividend date (ex-date):** the cutoff. Anyone who owns the stock at market close on the day *before* ex-date is entitled to the dividend; anyone who buys *on* or after ex-date is not
 3. **Stock price drops on ex-date:** the stock typically opens approximately the dividend amount lower than the previous close, reflecting that new buyers won't receive the dividend
 4. **Payable date:** the actual cash dividend is paid to entitled shareholders (typically 2–4 weeks after ex-date)
@@ -55,17 +55,17 @@ The adjustment appears as a separate transaction in trade history, typically lab
 
 ## A worked example
 
-Suppose a trader holds 100 contracts (1 lot) of a CFD on a stock that announces a $0.50 per-share dividend, with ex-date next Tuesday.
+Suppose a trader holds 100 contracts (1 lot) of a CFD on a stock that announces a \$0.50 per-share dividend, with ex-date next Tuesday.
 
 | Trader's position | Effect on Monday (day before ex-date) | Effect on Tuesday rollover (ex-date) |
 |---|---|---|
-| Long 100 shares CFD | Position unchanged; stock close: $50.00 | OPO may credit: 100 × $0.50 = **up to +$50.00** to Balance (discretionary) |
-| Short 100 shares CFD | Position unchanged; stock close: $50.00 | Gross dividend debit: 100 × $0.50 = **–$50.00** from Balance |
+| Long 100 shares CFD | Position unchanged; stock close: \$50.00 | OPO may credit: 100 × \$0.50 = **up to +\$50.00** to Balance (discretionary) |
+| Short 100 shares CFD | Position unchanged; stock close: \$50.00 | Gross dividend debit: 100 × \$0.50 = **–\$50.00** from Balance |
 
-On Tuesday's market open, the underlying stock typically opens around $49.50 (down approximately the dividend amount). The CFD price reflects this drop. So:
+On Tuesday's market open, the underlying stock typically opens around \$49.50 (down approximately the dividend amount). The CFD price reflects this drop. So:
 
-- The **long trader** loses ~$50 in unrealized P/L from the price drop, but may receive up to $50 from the dividend credit if OPO applies one — potentially net zero economic impact
-- The **short trader** gains ~$50 in unrealized P/L from the price drop, but pays $50 in gross dividend debit — also net zero economic impact
+- The **long trader** loses ~\$50 in unrealized P/L from the price drop, but may receive up to \$50 from the dividend credit if OPO applies one — potentially net zero economic impact
+- The **short trader** gains ~\$50 in unrealized P/L from the price drop, but pays \$50 in gross dividend debit — also net zero economic impact
 
 The dividend adjustment exists specifically to produce this neutral outcome. Without it, long traders would systematically lose money on dividend events, and short traders would systematically profit — neither of which reflects genuine market participation.
 

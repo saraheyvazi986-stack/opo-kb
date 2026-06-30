@@ -53,7 +53,7 @@ Between these moments, Balance is frozen. The market can move dramatically while
 
 ## Why this matters
 
-A trader looking at Balance thinks they have a certain amount. A trader looking at Equity sees what they actually have, accounting for live market positions. The two can differ wildly — a $10,000 Balance with three losing open positions might have an Equity of $6,000. The broker uses Equity (not Balance) for [[Margin Level]], [[Margin Call]], and [[Stop Out]] decisions.
+A trader looking at Balance thinks they have a certain amount. A trader looking at Equity sees what they actually have, accounting for live market positions. The two can differ wildly — a \$10,000 Balance with three losing open positions might have an Equity of \$6,000. The broker uses Equity (not Balance) for [[Margin Level]], [[Margin Call]], and [[Stop Out]] decisions.
 
 **Practical rule:** Balance is for accounting. Equity is for risk management.
 

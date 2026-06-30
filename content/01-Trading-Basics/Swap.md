@@ -79,9 +79,9 @@ Suppose a trader holds a 1-lot Long AUD/USD position at a time when:
 
 A Long AUD/USD position is effectively *borrowing USD to hold AUD*, so the trader pays the differential. The approximate daily swap charge:
 
-Over 30 days (counting one extra triple-Friday): approximately $90 in swap charges. This is per lot — at 10 lots, $900. At 100 lots, $9,000. For position traders holding negative-swap pairs, this is a quiet but substantial drag.
+Over 30 days (counting one extra triple-Friday): approximately \$90 in swap charges. This is per lot — at 10 lots, \$900. At 100 lots, \$9,000. For position traders holding negative-swap pairs, this is a quiet but substantial drag.
 
-The same position held *short* (Short AUD/USD = effectively long USD, short AUD) would earn approximately $2.74/day in positive swap.
+The same position held *short* (Short AUD/USD = effectively long USD, short AUD) would earn approximately \$2.74/day in positive swap.
 
 ## Swap on non-forex instruments
 
@@ -117,7 +117,7 @@ Practical actions:
 
 ## Risk warning
 
-Swap is the most under-monitored cost in retail trading. A trader focused on entry and exit price can lose substantial amounts to swap over weeks or months without realising the cumulative cost. For position traders, swap can exceed all other trading costs combined. The Friday triple-swap is a particular surprise for new traders — a position that pays $5/day in negative swap suddenly costs $15 on Friday night, and traders who don't anticipate this can find their [[Margin Level]] dropping unexpectedly into [[Margin Call]] territory. Swap rates can also change without notice based on interbank conditions — a trade entered with positive swap can later become negative-swap if rate differentials shift. Always check current swap rates before placing trades you intend to hold overnight.
+Swap is the most under-monitored cost in retail trading. A trader focused on entry and exit price can lose substantial amounts to swap over weeks or months without realising the cumulative cost. For position traders, swap can exceed all other trading costs combined. The Friday triple-swap is a particular surprise for new traders — a position that pays \$5/day in negative swap suddenly costs \$15 on Friday night, and traders who don't anticipate this can find their [[Margin Level]] dropping unexpectedly into [[Margin Call]] territory. Swap rates can also change without notice based on interbank conditions — a trade entered with positive swap can later become negative-swap if rate differentials shift. Always check current swap rates before placing trades you intend to hold overnight.
 
 ## Source
 

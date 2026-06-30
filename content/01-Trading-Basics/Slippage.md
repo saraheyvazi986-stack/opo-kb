@@ -37,7 +37,7 @@ In the **~50 milliseconds** between clicking "buy" and the order reaching OPO's 
 - A new quote arrives: 1.10025 / 1.10012
 - OPO fills the order at the new Ask: 1.10025
 
-Result: the trader expected to pay 1.10018, but paid 1.10025. That's **0.7 pips of negative slippage** — costing approximately $7 on a 1-lot trade.
+Result: the trader expected to pay 1.10018, but paid 1.10025. That's **0.7 pips of negative slippage** — costing approximately \$7 on a 1-lot trade.
 
 In calm markets, slippage is usually sub-pip and barely noticeable. In fast markets, it can be many pips.
 
@@ -109,7 +109,7 @@ Active traders evaluating strategies should:
 
 ## Risk warning
 
-Slippage is one of the largest hidden costs in retail trading. A trader may run a strategy assuming "perfect" entry and exit prices, then find live performance significantly worse due to accumulated slippage on every trade. Stop Loss orders are particularly affected — during gap events, a Stop Loss intended to cap losses at $50 can result in actual losses of $200 or more because the market jumped through the trigger level. OPO's Client Agreement explicitly disclaims liability for losses caused by slippage (clause 16.3(j)), placing the burden of slippage risk entirely on the trader. The best protection is conservative position sizing — choosing lot sizes so that worst-case slippage still produces acceptable dollar losses.
+Slippage is one of the largest hidden costs in retail trading. A trader may run a strategy assuming "perfect" entry and exit prices, then find live performance significantly worse due to accumulated slippage on every trade. Stop Loss orders are particularly affected — during gap events, a Stop Loss intended to cap losses at \$50 can result in actual losses of \$200 or more because the market jumped through the trigger level. OPO's Client Agreement explicitly disclaims liability for losses caused by slippage (clause 16.3(j)), placing the burden of slippage risk entirely on the trader. The best protection is conservative position sizing — choosing lot sizes so that worst-case slippage still produces acceptable dollar losses.
 
 ## Source
 

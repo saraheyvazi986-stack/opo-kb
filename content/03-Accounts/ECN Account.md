@@ -19,16 +19,16 @@ version: "1"
 
 ## Simple explanation
 
-The ECN Account is OpoFinance's direct market access account, designed for active traders who want tight spreads and are willing to pay a per-lot commission in exchange. It's available on MT4, MT5, the Web Terminal, and OpoTrade, with the same $100 minimum deposit as the Standard account but with significantly tighter spreads from 0.8 pip and a $6 commission per lot.
+The ECN Account is OpoFinance's direct market access account, designed for active traders who want tight spreads and are willing to pay a per-lot commission in exchange. It's available on MT4, MT5, the Web Terminal, and OpoTrade, with the same \$100 minimum deposit as the Standard account but with significantly tighter spreads from 0.8 pip and a \$6 commission per lot.
 
 ## Key specifications
 
 | Specification                    | Value                                          |
 | -------------------------------- | ---------------------------------------------- |
 | Account currency                 | USD                                            |
-| Minimum deposit                  | $100                                           |
+| Minimum deposit                  | \$100                                           |
 | Maximum deposit                  | No limit                                       |
-| Commission                       | $6 per lot                                     |
+| Commission                       | \$6 per lot                                     |
 | Spread                           | From 0.8 pip                                   |
 | Order execution                  | Market                                         |
 | Leverage (standard)              | 1:100 to 1:500 <br>                            |
@@ -51,14 +51,14 @@ The ECN Account is OpoFinance's direct market access account, designed for activ
 
 ## Who this account is for
 
-The ECN Account suits active traders who place enough volume that the tighter spread saves more than the $6 commission costs. Scalpers, algorithmic traders, and day traders typically prefer this model because direct market access reduces execution delays and the cost structure is predictable per trade. Beginners or low-frequency traders may find the [[Standard Account]] more economical because of the no-commission structure.
+The ECN Account suits active traders who place enough volume that the tighter spread saves more than the \$6 commission costs. Scalpers, algorithmic traders, and day traders typically prefer this model because direct market access reduces execution delays and the cost structure is predictable per trade. Beginners or low-frequency traders may find the [[Standard Account]] more economical because of the no-commission structure.
 
 ## How ECN differs from Standard
 
 | | Standard | ECN |
 |---|---|---|
-| Minimum deposit | $100 | $100 |
-| Commission | None | $6 per lot |
+| Minimum deposit | \$100 | \$100 |
+| Commission | None | \$6 per lot |
 | Spread | From 1.8 pip | From 0.8 pip |
 | Cost model | Spread-only | Spread + commission |
 | Execution | Market | Direct market access |

@@ -68,20 +68,20 @@ The dollar value of each [[Pip]] movement scales with lot size. On a USD-quoted 
 
 | Lot size | Pip value (USD-quoted pair) |
 |---|---|
-| 1.0 lot | $10/pip |
-| 0.5 lot | $5/pip |
-| 0.1 lot | $1/pip |
-| 0.01 lot | $0.10/pip |
+| 1.0 lot | \$10/pip |
+| 0.5 lot | \$5/pip |
+| 0.1 lot | \$1/pip |
+| 0.01 lot | \$0.10/pip |
 
-So a 50-pip adverse move on a 1-lot trade costs $500; the same move on a 0.01-lot trade costs $5.
+So a 50-pip adverse move on a 1-lot trade costs \$500; the same move on a 0.01-lot trade costs \$5.
 
 ### 2. Margin required
 
 [[Margin]] required to open the position scales with lot size. At 1:100 leverage on EUR/USD:
 
-- 1.0 lot requires ~$1,100 margin
-- 0.1 lot requires ~$110
-- 0.01 lot requires ~$11
+- 1.0 lot requires ~\$1,100 margin
+- 0.1 lot requires ~\$110
+- 0.01 lot requires ~\$11
 
 This is why over-sized lot trades reach [[Margin Call]] faster — more margin locked up means less Free Margin to absorb adverse moves.
 
@@ -89,9 +89,9 @@ This is why over-sized lot trades reach [[Margin Call]] faster — more margin l
 
 On accounts that charge [[Commission]], the per-lot rate scales linearly:
 
-- 1.0 lot on ECN ($6/lot): $6 commission
-- 0.1 lot on ECN: $0.60 commission
-- 0.01 lot on ECN: $0.06 commission
+- 1.0 lot on ECN (\$6/lot): \$6 commission
+- 0.1 lot on ECN: \$0.60 commission
+- 0.01 lot on ECN: \$0.06 commission
 
 ## Lot size limits at OPO
 
@@ -130,15 +130,15 @@ So lot size on a high-leverage account is *also* the variable that determines ho
 
 The right lot size depends on three factors:
 
-**1. Account size.** A common risk-management rule: don't risk more than 1–2% of account equity per trade. For a $1,000 account, that's $10–$20 per trade. If a strategy uses a 30-pip stop loss, the maximum safe lot size is:
+**1. Account size.** A common risk-management rule: don't risk more than 1–2% of account equity per trade. For a \$1,000 account, that's \$10–\$20 per trade. If a strategy uses a 30-pip stop loss, the maximum safe lot size is:
 
-**2. Stop Loss distance.** Wider stops require smaller lots to keep dollar risk constant. A trader with a $20 risk tolerance can place 0.1 lot with a 20-pip stop, but only 0.04 lot with a 50-pip stop.
+**2. Stop Loss distance.** Wider stops require smaller lots to keep dollar risk constant. A trader with a \$20 risk tolerance can place 0.1 lot with a 20-pip stop, but only 0.04 lot with a 50-pip stop.
 
 **3. Volatility of the instrument.** Volatile instruments (crypto, exotic FX, indices during news events) require smaller lot sizes than calm instruments, because price can move further before reaching a Stop Loss.
 
 ## Risk warning
 
-Lot size is the single most direct lever for trade risk. Most retail trader losses come not from being wrong about market direction, but from being right in direction with too-large lot sizes — the position size amplifies normal market noise into a loss large enough to trigger emotional decisions or [[Stop Out]]. Beginners are strongly recommended to start with 0.01 lot trades, regardless of account size, until they have a documented track record of consistent risk management. The minimum lot size at OPO is 0.01, which means even a $100 account can practice realistic trading without risking destructive losses on a single trade. Traders should always calculate the dollar value of their planned lot size *before* placing the trade — not after.
+Lot size is the single most direct lever for trade risk. Most retail trader losses come not from being wrong about market direction, but from being right in direction with too-large lot sizes — the position size amplifies normal market noise into a loss large enough to trigger emotional decisions or [[Stop Out]]. Beginners are strongly recommended to start with 0.01 lot trades, regardless of account size, until they have a documented track record of consistent risk management. The minimum lot size at OPO is 0.01, which means even a \$100 account can practice realistic trading without risking destructive losses on a single trade. Traders should always calculate the dollar value of their planned lot size *before* placing the trade — not after.
 
 ## Source
 

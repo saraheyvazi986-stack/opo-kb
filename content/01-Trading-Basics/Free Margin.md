@@ -29,9 +29,9 @@ Where "Used Margin" (the agreement calls it [[Necessary Margin]]) is the total m
 ## Example
 
 Suppose:
-- Equity: $1,050
-- Open positions using $300 in margin
-That $750 is what you can use to:
+- Equity: \$1,050
+- Open positions using \$300 in margin
+That \$750 is what you can use to:
 - Open additional positions (subject to having enough Free Margin to cover the new position's [[Initial Margin]])
 - Withdraw from the account (subject to having no withdrawal-blocking conditions, see [[Withdrawal Procedure]])
 
@@ -39,7 +39,7 @@ That $750 is what you can use to:
 
 **Free Margin gates new trades.** The Client Agreement clause 12.3(j) states that one of the conditions for OPO to accept a trade request is: "when the Client opens a position, the Client shall have sufficient Free Margin to cover the Initial Margin requirement in respect of that Open Position." If Free Margin is insufficient, the order is rejected.
 
-**Free Margin gates withdrawals.** Clause 15.3(c) states that withdrawals are processed only if "at the moment of payment, the Client's Free Margin exceeds the amount specified in the withdrawal instruction including all payment charges." A trader with $10,000 Balance but high used Margin may not be able to withdraw freely.
+**Free Margin gates withdrawals.** Clause 15.3(c) states that withdrawals are processed only if "at the moment of payment, the Client's Free Margin exceeds the amount specified in the withdrawal instruction including all payment charges." A trader with \$10,000 Balance but high used Margin may not be able to withdraw freely.
 
 ## What changes Free Margin
 

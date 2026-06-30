@@ -30,7 +30,7 @@ For a leveraged position:
 
 Example: opening 1 lot of EUR/USD at 1.1000 on 1:100 leverage:
 
-So opening this position locks $1,100 of [[Free Margin]] as Initial Margin. If your account had $5,000 of Free Margin before opening, it now has $3,900 available for new trades.
+So opening this position locks \$1,100 of [[Free Margin]] as Initial Margin. If your account had \$5,000 of Free Margin before opening, it now has \$3,900 available for new trades.
 
 Exact margin requirements per instrument are defined in OPO's Contract Specifications and may differ from this formula based on leverage tier, account type, and instrument category.
 
@@ -58,12 +58,12 @@ For a single trade with no requirement changes, Initial Margin and the Necessary
 
 | Leverage | Initial Margin for 1 lot EUR/USD |
 |---|---|
-| 1:30 | $3,667 |
-| 1:100 | $1,100 |
-| 1:200 | $550 |
-| 1:500 | $220 |
-| 1:1000 | $110 |
-| 1:2000 | $55 |
+| 1:30 | \$3,667 |
+| 1:100 | \$1,100 |
+| 1:200 | \$550 |
+| 1:500 | \$220 |
+| 1:1000 | \$110 |
+| 1:2000 | \$55 |
 
 Higher leverage means smaller Initial Margin — which means more positions can be opened from the same account balance. This is the appeal and the danger of high leverage simultaneously. See [[Leverage]] for the full picture.
 

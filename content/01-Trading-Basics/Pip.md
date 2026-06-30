@@ -44,7 +44,7 @@ The yen has a much smaller per-unit value than other major currencies, so the qu
 
 The "pip" concept is sometimes used loosely for non-forex instruments, but the unit varies:
 
-- **Gold (XAU/USD)**: 1 pip is typically $0.01 or $0.10 depending on the broker — OPO's quoting convention should be confirmed
+- **Gold (XAU/USD)**: 1 pip is typically \$0.01 or \$0.10 depending on the broker — OPO's quoting convention should be confirmed
 - **Indices** (S&P 500, NASDAQ): usually quoted in points rather than pips
 - **Crypto** (BTC/USD): usually quoted in whole-dollar increments or with fractional decimals; "pip" is not a meaningful unit for instruments priced in thousands
 
@@ -72,11 +72,11 @@ For a USD-quoted pair (EUR/USD, GBP/USD, AUD/USD) on a USD account:
 
 | Trade size | Lot units | Pip value (USD-quoted pair) |
 |---|---|---|
-| 1.0 standard lot | 100,000 | $10 |
-| 0.1 mini lot | 10,000 | $1 |
-| 0.01 micro lot | 1,000 | $0.10 |
+| 1.0 standard lot | 100,000 | \$10 |
+| 0.1 mini lot | 10,000 | \$1 |
+| 0.01 micro lot | 1,000 | \$0.10 |
 
-So a 1-lot EUR/USD position making a 50-pip profit earns: 50 × $10 = $500.
+So a 1-lot EUR/USD position making a 50-pip profit earns: 50 × \$10 = \$500.
 
 ### Cross-currency pairs
 
@@ -86,7 +86,7 @@ For pairs where USD is *not* the quote currency (EUR/GBP, AUD/JPY, etc.), the pi
 
 For yen pairs on a USD account, the pip value of 1 standard lot is approximately:
 
-At a USD/JPY rate of 150, one pip on a standard-lot USD/JPY position is approximately $6.67. This is lower than the $10/pip on most other major pairs.
+At a USD/JPY rate of 150, one pip on a standard-lot USD/JPY position is approximately \$6.67. This is lower than the \$10/pip on most other major pairs.
 
 ## Why pips matter for traders
 
@@ -101,7 +101,7 @@ A trader who can read pip movements quickly has a fundamental advantage over one
 
 ## Risk warning
 
-Pips can feel abstract — they sound like small movements ("5 pips") but the dollar impact scales rapidly with lot size and leverage. A 100-pip adverse move on a 1-lot EUR/USD position is $1,000 in loss. The same 100-pip move on a 10-lot position is $10,000. Traders should always know the dollar value of a pip on their specific trade size *before* placing the trade, not after. Setting a Stop Loss in pips without confirming the dollar equivalent is one of the most common reasons retail traders lose more than they intended on a single trade.
+Pips can feel abstract — they sound like small movements ("5 pips") but the dollar impact scales rapidly with lot size and leverage. A 100-pip adverse move on a 1-lot EUR/USD position is \$1,000 in loss. The same 100-pip move on a 10-lot position is \$10,000. Traders should always know the dollar value of a pip on their specific trade size *before* placing the trade, not after. Setting a Stop Loss in pips without confirming the dollar equivalent is one of the most common reasons retail traders lose more than they intended on a single trade.
 
 ## Source
 

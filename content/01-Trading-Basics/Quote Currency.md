@@ -50,7 +50,7 @@ When you see EUR/USD rise from 1.1000 to 1.1100, that means the Quote Currency (
 
 For most major forex pairs, the dollar value of a [[Pip]] depends on whether your account currency matches the Quote Currency:
 
-- **EUR/USD on a USD account** — pip value is consistent at $10 per lot, because the Quote Currency matches the account currency
+- **EUR/USD on a USD account** — pip value is consistent at \$10 per lot, because the Quote Currency matches the account currency
 - **EUR/GBP on a USD account** — pip value fluctuates with the GBP/USD exchange rate, because the pip is measured in GBP and must be converted to USD
 - **USD/JPY on a USD account** — pip value depends on the current USD/JPY rate; a pip is worth 0.01 JPY, which converts to a fluctuating USD amount
 

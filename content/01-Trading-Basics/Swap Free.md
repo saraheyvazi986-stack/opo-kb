@@ -38,7 +38,7 @@ The Client Agreement clause 34.1 sets out the operating model. Two key points:
 
 ### Eligibility
 
-Swap-Free is typically activated by request on existing accounts after a minimum balance threshold is met (the website specifies $30,000+ for ECN Pro accounts, but this varies by account type — confirm with OPO support). The exact eligibility criteria are not consistently documented across OPO's materials.
+Swap-Free is typically activated by request on existing accounts after a minimum balance threshold is met (the website specifies \$30,000+ for ECN Pro accounts, but this varies by account type — confirm with OPO support). The exact eligibility criteria are not consistently documented across OPO's materials.
 
 ### Swap-Free is not unconditional
 
@@ -118,7 +118,7 @@ Swap-Free is not a license to hold positions indefinitely without cost. The flat
 - OPO Client Agreement v10, clause 34.1(b) (Swap-Free charges)
 - OPO Client Agreement v10, clause 34.1(c) (right to modify or discontinue)
 - OPO Client Agreement v10, clauses 34.2–34.5 (clearly erroneous orders on Swap-Free)
-- OPO website account type pages (Swap-Free availability mentioned for ECN Pro at $30,000+)
+- OPO website account type pages (Swap-Free availability mentioned for ECN Pro at \$30,000+)
 - Last verified: 2026-05-12
 
 ## Internal review notes

@@ -19,14 +19,14 @@ version: "1"
 
 ## Simple explanation
 
-The Standard Account is OpoFinance's entry-level trading account, designed for new and experienced traders who want a straightforward CFD trading experience without commissions. It's available on MT4, MT5, the Web Terminal, and OpoTrade, with a low $100 minimum deposit.
+The Standard Account is OpoFinance's entry-level trading account, designed for new and experienced traders who want a straightforward CFD trading experience without commissions. It's available on MT4, MT5, the Web Terminal, and OpoTrade, with a low \$100 minimum deposit.
 
 ## Key specifications
 
 | Specification                    | Value               |
 | -------------------------------- | ------------------- |
 | Account currency                 | USD                 |
-| Minimum deposit                  | $100                |
+| Minimum deposit                  | \$100                |
 | Maximum deposit                  | No limit            |
 | Commission                       | No commission       |
 | Spread                           | From 1.8 pip        |

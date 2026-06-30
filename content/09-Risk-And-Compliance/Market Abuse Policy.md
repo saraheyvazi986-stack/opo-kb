@@ -226,7 +226,7 @@ The Market Abuse Policy is the most consequential trader-facing policy in the Cl
 - Document the appeals process specifically for abuse classifications, beyond the general [[Complaints Procedure]]
 - Clarify the relationship between the Market Abuse Policy and the [[Aggressive Behavior Policy]] (clause 37) — both can trigger account suspension and there may be overlap
 - Consider whether bonus-related abuse should be documented separately in the Bonus Programs section, since the rules and enforcement may differ
-- The interaction between Market Abuse findings and refund of deposited funds (vs. confiscation of profits only) is not entirely clear in clause 35.3. Specifically: if a trader deposited $1,000, made $5,000 in abusive profits, can OPO withhold the $1,000 deposit? Clarification would reduce disputes
+- The interaction between Market Abuse findings and refund of deposited funds (vs. confiscation of profits only) is not entirely clear in clause 35.3. Specifically: if a trader deposited \$1,000, made \$5,000 in abusive profits, can OPO withhold the \$1,000 deposit? Clarification would reduce disputes
 - Confirm whether bonus credits and promotional balances are treated identically to deposited funds in the context of abuse findings
 
 ## Related topics

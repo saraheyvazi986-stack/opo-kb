@@ -30,20 +30,20 @@ OPO defines [[Matched Positions]] in Appendix A:
 
 > Long and Short Positions of the same Transaction Size opened on the Trading Account for the same Instrument.
 
-In plain terms: if you're holding 2 lots long EUR/USD AND 2 lots short EUR/USD at the same time, those 2 lots are "matched." The market exposure cancels out — if EUR/USD rises 50 pips, you make $1,000 on the long and lose $1,000 on the short. Net market P/L: zero.
+In plain terms: if you're holding 2 lots long EUR/USD AND 2 lots short EUR/USD at the same time, those 2 lots are "matched." The market exposure cancels out — if EUR/USD rises 50 pips, you make \$1,000 on the long and lose \$1,000 on the short. Net market P/L: zero.
 
 Since there's no net market exposure on the matched portion, the broker accepts lower collateral requirements.
 
 ## A worked example
 
-Suppose the standard [[Initial Margin]] for 1 lot of EUR/USD at 1:100 leverage is $1,100. A trader holds:
+Suppose the standard [[Initial Margin]] for 1 lot of EUR/USD at 1:100 leverage is \$1,100. A trader holds:
 
 - 2 lots long EUR/USD
 - 2 lots short EUR/USD
 
 | Scenario | Margin required |
 |---|---|
-| Without hedged margin treatment | 4 lots × $1,100 = $4,400 |
+| Without hedged margin treatment | 4 lots × \$1,100 = \$4,400 |
 | With hedged margin (matched 2 lots each way) | Significantly less — typically 25%–50% of the unhedged figure |
 
 The exact reduction is defined per-instrument in the Contract Specifications. Standard industry practice is to charge 25%–50% of the normal margin on the matched portion, with full margin on any unmatched excess.
@@ -62,8 +62,8 @@ Three main reasons:
 
 Hedging via matched positions is not free:
 
-- **Spread is paid twice.** Both legs (long and short) cross the [[Spread]] at entry, and both pay it again at exit. For a 2-lot hedged pair on a 1.8-pip spread, that's $72 in spread cost ($36 per leg × 2 legs).
-- **[[Commission]] applies to both legs.** On a $6/lot ECN account, two 1-lot legs cost $12 in commission, not $6.
+- **Spread is paid twice.** Both legs (long and short) cross the [[Spread]] at entry, and both pay it again at exit. For a 2-lot hedged pair on a 1.8-pip spread, that's \$72 in spread cost (\$36 per leg × 2 legs).
+- **[[Commission]] applies to both legs.** On a \$6/lot ECN account, two 1-lot legs cost \$12 in commission, not \$6.
 - **[[Swap]] is charged on both legs independently.** This is the most surprising cost. On each daily rollover, both legs incur their respective swap charges. A pair where one leg has positive swap and the other has negative swap will not net out — the trader pays both.
 - **Friday triple-swap applies to both legs.** So holding a hedged position through Friday night can be substantially more expensive than expected.
 

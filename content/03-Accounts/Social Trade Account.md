@@ -19,14 +19,14 @@ version: "1"
 
 ## Simple explanation
 
-The Social Trade Account is OpoFinance's copy-trading offering. It comes in two tiers: a Standard tier for traders new to copy trading ($200 minimum, no commission) and a Social Pro tier for higher-volume copy traders ($5,000 minimum, lower commission and tighter spreads). Both run on MT4, MT5, and the Web Terminal, and connect to OpoFinance's Social Trade Platform where traders can follow or copy strategies from experienced traders in the community.
+The Social Trade Account is OpoFinance's copy-trading offering. It comes in two tiers: a Standard tier for traders new to copy trading (\$200 minimum, no commission) and a Social Pro tier for higher-volume copy traders (\$5,000 minimum, lower commission and tighter spreads). Both run on MT4, MT5, and the Web Terminal, and connect to OpoFinance's Social Trade Platform where traders can follow or copy strategies from experienced traders in the community.
 
 ## Social Trade Standard specifications
 
 | Specification                    | Value                                             |
 | -------------------------------- | ------------------------------------------------- |
 | Account currency                 | USD                                               |
-| Minimum deposit                  | $200                                              |
+| Minimum deposit                  | \$200                                              |
 | Maximum deposit                  | No limit                                          |
 | Commission                       | No commission                                     |
 | Spread                           | From 1.5 pip                                      |
@@ -47,9 +47,9 @@ The Social Trade Account is OpoFinance's copy-trading offering. It comes in two 
 | Specification                    | Value                             |
 | -------------------------------- | --------------------------------- |
 | Account currency                 | USD                               |
-| Minimum deposit                  | $5,000                            |
+| Minimum deposit                  | \$5,000                            |
 | Maximum deposit                  | No limit                          |
-| Commission                       | $4 per lot                        |
+| Commission                       | \$4 per lot                        |
 | Spread                           | From 0.0 pip                      |
 | Order execution                  | Market                            |
 | Leverage (standard)              | 1:100 to 1:500                    |
@@ -81,8 +81,8 @@ Traders who want to *be copied* (sharing their strategies with the community) ca
 
 |                 | Social Trade Standard | Social Pro                                |
 | --------------- | --------------------- | ----------------------------------------- |
-| Minimum deposit | $200                  | $5,000                                    |
-| Commission      | None                  | $4 per lot                                |
+| Minimum deposit | \$200                  | \$5,000                                    |
+| Commission      | None                  | \$4 per lot                                |
 | Spread          | From 1.5 pip          | From 0.0 pip                              |
 | Stop out        | 20%                   | 20%                                       |
 | Best for        | Beginners copying     | High-volume copying or strategy providers |

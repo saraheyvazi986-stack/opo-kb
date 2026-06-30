@@ -52,7 +52,7 @@ This is the live, real-time account valuation. While [[Balance]] only updates wh
 - [[Margin Level]] = (Equity ÷ Necessary Margin) × 100% — also updates continuously
 - [[Margin Call]] and [[Stop Out]] trigger based on Equity (driven by Floating P/L), not Balance
 
-So when traders ask "why did I get a margin call when my account had $5,000?" — the answer is that the $5,000 was [[Balance]]; their Equity (Balance plus negative Floating P/L from open positions) was much lower.
+So when traders ask "why did I get a margin call when my account had \$5,000?" — the answer is that the \$5,000 was [[Balance]]; their Equity (Balance plus negative Floating P/L from open positions) was much lower.
 
 ## When Floating P/L is realized
 
@@ -92,7 +92,7 @@ So a trader holding a position overnight should expect to see:
 
 ## Risk warning
 
-Floating P/L feels real but isn't realized until positions close. A trader looking at $1,000 of positive Floating P/L and feeling like they've "won" hasn't actually made anything — the market can reverse and erase the gain before they exit. Conversely, traders looking at $500 of negative Floating P/L and refusing to close because "it's not a real loss yet" are deluding themselves — the loss is real, just not yet recorded. Treating Floating P/L the same as realized P/L for psychological purposes — being equally willing to close winners and accept losses — is a core discipline. Setting [[Take Profit]] and [[Stop Loss]] orders converts emotional decisions into pre-committed ones, which is how professionals manage the gap between floating and realized P/L.
+Floating P/L feels real but isn't realized until positions close. A trader looking at \$1,000 of positive Floating P/L and feeling like they've "won" hasn't actually made anything — the market can reverse and erase the gain before they exit. Conversely, traders looking at \$500 of negative Floating P/L and refusing to close because "it's not a real loss yet" are deluding themselves — the loss is real, just not yet recorded. Treating Floating P/L the same as realized P/L for psychological purposes — being equally willing to close winners and accept losses — is a core discipline. Setting [[Take Profit]] and [[Stop Loss]] orders converts emotional decisions into pre-committed ones, which is how professionals manage the gap between floating and realized P/L.
 
 ## Source
 

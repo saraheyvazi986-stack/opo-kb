@@ -19,16 +19,16 @@ version: "1"
 
 ## Simple explanation
 
-The ECN Pro Account is OpoFinance's premium account tier, designed for high-volume and institutional traders. It offers the platform's tightest spreads (from 0.0 pip) and the lowest commission ($4 per lot), in exchange for a significantly higher minimum deposit. Available on MT4, MT5, the Web Terminal, and OpoTrade.
+The ECN Pro Account is OpoFinance's premium account tier, designed for high-volume and institutional traders. It offers the platform's tightest spreads (from 0.0 pip) and the lowest commission (\$4 per lot), in exchange for a significantly higher minimum deposit. Available on MT4, MT5, the Web Terminal, and OpoTrade.
 
 ## Key specifications
 
 | Specification                    | Value                                         |
 | -------------------------------- | --------------------------------------------- |
 | Account currency                 | USD                                           |
-| Minimum deposit                  | $5,000                                        |
+| Minimum deposit                  | \$5,000                                        |
 | Maximum deposit                  | No limit                                      |
-| Commission                       | $4 per lot                                    |
+| Commission                       | \$4 per lot                                    |
 | Spread                           | From 0.0 pip                                  |
 | Order execution                  | Market                                        |
 | Leverage (standard)              | 1:100 to 1:500                                |
@@ -40,7 +40,7 @@ The ECN Pro Account is OpoFinance's premium account tier, designed for high-volu
 | Trade size increment             | 0.01 lots                                     |
 | Maximum total trade size         | Unlimited                                     |
 | Maximum simultaneous open orders | Unlimited                                     |
-| Swap-free option                 | Available — requires $30,000+ account balance |
+| Swap-free option                 | Available — requires \$30,000+ account balance |
 
 ## Available platforms
 
@@ -51,16 +51,16 @@ The ECN Pro Account is OpoFinance's premium account tier, designed for high-volu
 
 ## Who this account is for
 
-The ECN Pro Account targets professional, high-volume, and institutional traders. The $4-per-lot commission is OpoFinance's lowest, and the raw spreads from 0.0 pip make it the most cost-efficient option for traders placing significant volume. The high minimum deposit makes it inappropriate for newer or low-capital traders, who would be better served by the [[Standard Account]] or [[ECN Account]].
+The ECN Pro Account targets professional, high-volume, and institutional traders. The \$4-per-lot commission is OpoFinance's lowest, and the raw spreads from 0.0 pip make it the most cost-efficient option for traders placing significant volume. The high minimum deposit makes it inappropriate for newer or low-capital traders, who would be better served by the [[Standard Account]] or [[ECN Account]].
 
 ## How ECN Pro differs from ECN
 
 | | ECN | ECN Pro |
 |---|---|---|
-| Minimum deposit | $100 | $5,000 |
-| Commission | $6 per lot | $4 per lot |
+| Minimum deposit | \$100 | \$5,000 |
+| Commission | \$6 per lot | \$4 per lot |
 | Spread | From 0.8 pip | From 0.0 pip |
-| Swap-free | Available (conditions to confirm) | Available with $30,000+ balance |
+| Swap-free | Available (conditions to confirm) | Available with \$30,000+ balance |
 | Best for | Active traders | High-volume, professional, institutional |
 
 ## Risk warning
@@ -75,7 +75,7 @@ Trading CFDs with leverage involves a high level of risk and may result in losse
 
 ## Internal review notes
 
-- Confirm $30,000 swap-free threshold is correct and document any conditions
+- Confirm \$30,000 swap-free threshold is correct and document any conditions
 - Typo in source: "requird" should be "required" — pass to web team
 - Confirm whether ECN and Standard accounts also have balance-gated swap-free thresholds
 
